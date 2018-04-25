@@ -1,0 +1,38 @@
+*{
+  margin: 0px;
+}
+.producto img{
+  max-height: 200px;
+  display: block;
+}
+.producto{
+  background: #d29494;
+  border: 2px solid;
+  width: 400px;
+  display: block;
+  padding:20px;
+}
+.producto input{
+}
+#contenedor{
+  display: block;
+  padding: 20px;;
+  width: 100%;
+  background: #ffab59;
+}
+#encabezado *{
+  display: block;
+  margin-bottom: 20px;
+}
+#pie *{
+  display: inline-block;
+  margin: 10px 20px;
+}
+#login{
+  width: 200px;
+  margin: 20px auto;
+}
+#login fieldset{
+  background: #cecece;
+  border-radius: 20px;
+}
