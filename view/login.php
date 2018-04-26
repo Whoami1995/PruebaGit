@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require_once('control/control.php');
 
 class login{
@@ -16,6 +16,8 @@ class login{
             echo "<form action='".$_SERVER["PHP_SELF"]."' method='post'>";
             echo "<fieldset>";
             echo "<h1> Esta linea ha sido añadida en la version 1.2 </h1>";
+			echo "<h2> ESTA LINEA ES AÑADIDA EN LA VERSION 1.3</h2>";
+
                 echo "<legend>Login</legend>";
                 if($_SESSION['error']!="")
                     echo "<script> alert('".$_SESSION['error']."')</script>";
